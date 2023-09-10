@@ -36,20 +36,26 @@ const Contact = () => {
             method="POST"
           >
             {/* email address input */}
-            <input
-              type="email"
-              placeholder="your email address"
-              name="from"
-              className="input__box email__address"
-            />
-            <textarea
-              onKeyUp={() => setHeight("textArea")}
-              onKeyDown={() => setHeight("textArea")}
-              id="textArea"
-              name="message"
-              placeholder="enter your message here"
-              className="input__box email__body"
-            ></textarea>
+            <label>
+              Your email:
+              <input
+                type="email"
+                placeholder="your email address"
+                name="from"
+                className="input__box email__address"
+              />
+            </label>
+            <label>
+              Your message:
+              <textarea
+                onKeyUp={() => setHeight("textArea")}
+                onKeyDown={() => setHeight("textArea")}
+                id="textArea"
+                name="message"
+                placeholder="enter your message here"
+                className="input__box email__body"
+              ></textarea>
+            </label>
             {/* submit button */}
             <button type="submit" className="contact__btn">
               Send email
@@ -58,19 +64,35 @@ const Contact = () => {
         </div>
         {/* social icons */}
         <div className="socials">
-          <a href="https://github.com/lcim"target="_blank" rel="noreferrer" >
+          <a href="https://github.com/lcim" target="_blank" rel="noreferrer">
             <img src={github} alt="GitHub" className="social-icon" />
           </a>
-          <a href="https://www.linkedin.com/in/leonard-mbibi-9b57149/"target="_blank" rel="noreferrer" >
+          <a
+            href="https://www.linkedin.com/in/leonard-mbibi-9b57149/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={linkedin} alt="Linkein" className="social-icon" />
           </a>
-          <a href="https://www.youtube.com/channel/UCcQiOUaMLkJpCi2OfiQsVWQ"target="_blank" rel="noreferrer" >
+          <a
+            href="https://www.youtube.com/channel/UCcQiOUaMLkJpCi2OfiQsVWQ"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={youtube} alt="YouTube" className="social-icon" />
           </a>
-          <a href="https://web.facebook.com/profile.php?id=100007507664789"target="_blank" rel="noreferrer" >
+          <a
+            href="https://web.facebook.com/profile.php?id=100007507664789"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={facebook} alt="Facebook" className="social-icon" />
           </a>
-          <a href="https://twitter.com/NoSecondChance7"target="_blank" rel="noreferrer" >
+          <a
+            href="https://twitter.com/NoSecondChance7"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={twitter} alt="Twitter" className="social-icon" />
           </a>
         </div>
