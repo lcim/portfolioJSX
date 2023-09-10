@@ -122,3 +122,17 @@
   }
   
 }
+
+@media screen and (max-height: 560px) {
+  .intro{
+    margin-top: 18rem;
+  }
+  
+}
+
+/* @media screen and (min-height: 1080px) {
+  .intro{
+    margin-top: 2rem;
+  }
+  
+} */

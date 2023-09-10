@@ -3,7 +3,7 @@ import { skillList } from "./../../assets/skillsSet";
 import Header from "../Header/Header";
 import SkillsCard from "./SkillsCard";
 import FooterLink from "../FooterLink/FooterLink";
-import skillsVector from "./../../assets/skills_vector.png";
+// import skillsVector from "./../../assets/skills_vector.png";
 // import React from 'react'
 
 const Skills = () => {
@@ -25,14 +25,14 @@ const Skills = () => {
             link="touch"
             linkAddress="/contact"
           />
-        </div>
         {/* Background vector image for about page */}
-        <div className="vector__frame">
+        {/* <div className="vector__frame">
           <img
             src={skillsVector}
             alt="vector image"
             className="skills__vector"
           />
+        </div> */}
         </div>
       {/* </div> */}
     </div>

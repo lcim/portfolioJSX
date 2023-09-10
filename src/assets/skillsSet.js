@@ -48,10 +48,6 @@ export const skillList = [
     skillUrl: "https://i.postimg.cc/FfjkNksH/bitdefender-icon.png",
   },
   {
-    skillName: "ccna R&S",
-    skillUrl: "https://i.postimg.cc/dhvMtndC/ccna-icon.png",
-  },
-  {
     skillName: "Hotel Software",
     skillUrl: "https://i.postimg.cc/jW3v6NKS/asi-icon.jpg",
   },
@@ -61,6 +57,11 @@ export const skillList = [
   },
 ];
 
+
+  // {
+  //   skillName: "ccna R&S",
+  //   skillUrl: "https://i.postimg.cc/dhvMtndC/ccna-icon.png",
+  // },
 //     {
 //         skillName: 'Redux',
 //         skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',

@@ -10,10 +10,7 @@ import contactVector from "./../../assets/contact_anime.png";
 // import React from 'react'
 
 const Contact = () => {
-  // const pageHeight = document.getElementById("contact__page").scrollHeight + "px"
-  // const myStyle = {
-  //   height: pageHeight
-  // }
+
   {
     /* email body - I am trying to implement textarea with auto height */
   }
@@ -36,8 +33,7 @@ const Contact = () => {
             method="POST"
           >
             {/* email address input */}
-            <label htmlFor="Your_email">
-              Your_email:</label>
+            <label htmlFor="Your_email"></label>
               <input
                 id="Your_email"
                 type="email"
@@ -46,8 +42,7 @@ const Contact = () => {
                 className="input__box email__address"
               />
             
-            <label htmlFor="Your_message">
-              Your_message:</label>
+            <label htmlFor="Your_message"></label>
               <textarea
                 onKeyUp={() => setHeight("textArea")}
                 onKeyDown={() => setHeight("textArea")}

@@ -26,6 +26,13 @@
   margin-block-start: 3.0rem;
 }
 
+.projects__footer{
+  font-family: Montserrat;
+  font-weight: bold;
+  background-color: rgba(149, 35, 35, 0.1);
+  border-radius: 12px;
+}
+
 @media screen and (min-width:760px) {
   .projectsCard__container{
     width: 80vw;

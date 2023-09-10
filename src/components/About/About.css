@@ -23,6 +23,7 @@
   justify-content: center;
   width: 100%;
   padding-block: 1.1rem;
+  z-index: 21;
 }
 
 .about__main {
@@ -78,6 +79,7 @@
   max-width: 100%;
   position: inherit;
   bottom: 0;
+  z-index: -6;
 }
 
 @media screen and (min-width: 400px) {
@@ -98,6 +100,9 @@
   .about__main-right,
   .about__main-left {
     width: 50%;
+  }
+  .about__vector{
+    height: 50%;
   }
   
 }

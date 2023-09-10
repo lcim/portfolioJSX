@@ -79,7 +79,6 @@ const About = () => {
           link="projects"
           linkAddress="/projects"
         />
-      </div>
           {/* Background vector image for about page */}
           <div className="vector__frame">
             <img
@@ -88,6 +87,7 @@ const About = () => {
               className="about__vector"
             />
           </div>
+      </div>
     </div>
   );
 };
