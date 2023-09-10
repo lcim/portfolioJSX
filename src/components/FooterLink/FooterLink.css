@@ -1,0 +1,15 @@
+.footer {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: rgba(255, 255, 255, 1);
+  margin-block: 3rem 4rem;
+  z-index: 9;
+}
+
+.footer-link-element {
+  color: rgba(255, 255, 255, 1);
+}
+

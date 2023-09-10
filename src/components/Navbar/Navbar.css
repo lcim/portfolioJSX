@@ -1,0 +1,119 @@
+/* size and position the burger menu icon */
+.bm-burger-button{
+    position: fixed;
+    left: 21px;
+    top: 44px;
+    width: 44px;
+    height: 44px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+/* color the burger icon color */
+.bm-burger-bars{
+    background-color: #ba4517;
+    width: 54px;
+}
+/* burger icon color on hover */
+/* .bm-burger-bars:hover {
+    background-color: #FDFDFD;
+} */
+
+.bm-burger-button:hover{
+    background-color: #FFF;
+    width: 54px;
+    border-radius: 12px;
+}
+
+/* cross or cancel button */
+.bm-cross-button{
+    border-radius: 50%;    
+    background-color:rgba(58, 52, 53, 0.9) ;
+}
+
+/* cross or cancel text */
+.bm-cross{
+    background-color: rgb(252, 243, 234);
+    font-weight: bold;
+}
+
+/* menu wrapper */
+.bm-menu-wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.2);
+}
+
+.bm-menu{
+    /* background-color: linear-gradient(39deg, #313030 0.79%, #3a3435 79.29%); */
+    padding: 2.5em 1.5em 0 0 ;
+    height: 100vh; 
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden !important;
+    /* to be revisited */
+    background-color:rgba(58, 52, 53, 0.8) ;
+}
+
+.bm-item-list{
+    padding: 0.8em; 
+    margin-top: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background-color:rgba(58, 52, 53, 0.1) ; */
+    width: 100%;
+}
+
+.menu-item{
+    font-size: 2em;
+    position: relative;
+    text-decoration: none;
+    color: #FEFEFE;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px;
+}
+
+/* the underline on menu item */
+.menu-item:before{
+    content: "";
+    position: absolute;
+    width: 81%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FEFEFE;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+/* currently selected or active item */
+.active-item{
+    font-weight: 500;
+    color: #99f50e;
+}
+
+.menu-item:hover{
+    color: #adead8;
+    font-weight: 600;
+    }
+.active-item:before, .menu-item:hover:before{
+    visibility:visible;
+    height: 3px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .bm-menu{
+        width: unset;
+    }
+}
