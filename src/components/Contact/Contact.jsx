@@ -92,9 +92,9 @@ const Contact = () => {
             <img src={twitter} alt="Twitter" className="social-icon" />
           </a>
         </div>
-        <div className="vector__frame">
+        {/* <div className="vector__frame">
           <img src={contactVector} alt="contact vector" />
-        </div>
+        </div> */}
         <FooterLink
           phrase="Read more &nbsp;"
           link="about me"
