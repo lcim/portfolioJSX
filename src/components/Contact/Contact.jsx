@@ -37,9 +37,9 @@ const Contact = () => {
           >
             {/* email address input */}
             <label>
-              Your email:
+              Your_email:
               <input
-                id="Your email"
+                id="Your_email"
                 type="email"
                 placeholder="your email address"
                 name="from"
@@ -47,11 +47,11 @@ const Contact = () => {
               />
             </label>
             <label>
-              Your message:
+              Your_message:
               <textarea
                 onKeyUp={() => setHeight("textArea")}
                 onKeyDown={() => setHeight("textArea")}
-                id="Your message"
+                id="Your_message"
                 name="message"
                 placeholder="enter your message here"
                 className="input__box email__body"
