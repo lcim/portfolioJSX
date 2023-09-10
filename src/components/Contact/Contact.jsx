@@ -36,7 +36,7 @@ const Contact = () => {
             method="POST"
           >
             {/* email address input */}
-            <label>
+            <label htmlFor="Your_email">
               Your_email:
               <input
                 id="Your_email"
@@ -46,7 +46,7 @@ const Contact = () => {
                 className="input__box email__address"
               />
             </label>
-            <label>
+            <label htmlFor="Your_message">
               Your_message:
               <textarea
                 onKeyUp={() => setHeight("textArea")}
