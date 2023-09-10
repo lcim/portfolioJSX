@@ -37,7 +37,7 @@ const Contact = () => {
           >
             {/* email address input */}
             <label htmlFor="Your_email">
-              Your_email:
+              Your_email:</label>
               <input
                 id="Your_email"
                 type="email"
@@ -45,9 +45,9 @@ const Contact = () => {
                 name="from"
                 className="input__box email__address"
               />
-            </label>
+            
             <label htmlFor="Your_message">
-              Your_message:
+              Your_message:</label>
               <textarea
                 onKeyUp={() => setHeight("textArea")}
                 onKeyDown={() => setHeight("textArea")}
@@ -56,7 +56,7 @@ const Contact = () => {
                 placeholder="enter your message here"
                 className="input__box email__body"
               ></textarea>
-            </label>
+            
             {/* submit button */}
             <button type="submit" className="contact__btn">
               Send email
