@@ -6,18 +6,12 @@ import twitter from "./../../assets/twitter.png";
 import youtube from "./../../assets/youtube.png";
 import linkedin from "./../../assets/linkedin.png";
 import facebook from "./../../assets/facebook.png";
-import contactVector from "./../../assets/contact_anime.png";
+import ContactForm from "./ContactForm";
+// import contactVector from "./../../assets/contact_anime.png";
 // import React from 'react'
 
 const Contact = () => {
-
-  {
-    /* email body - I am trying to implement textarea with auto height */
-  }
-  function setHeight(fieldId) {
-    document.getElementById(fieldId).style.height =
-      document.getElementById(fieldId).scrollHeight + "px";
-  }
+  
   return (
     <div className="component-wrapper">
       <div id="contact__page" className="contactpage__background">
@@ -25,39 +19,7 @@ const Contact = () => {
           heading="Get In Touch"
           details="I am open to collaborate with you and share my skills. I am looking forward to a successful collaboration."
         />
-        {/* Form section */}
-        <div className="form__container">
-          <form
-            className="contact__form"
-            action="https://formspree.io/f/xvojrjzj"
-            method="POST"
-          >
-            {/* email address input */}
-            <label htmlFor="Your_email"></label>
-              <input
-                id="Your_email"
-                type="email"
-                placeholder="your email address"
-                name="from"
-                className="input__box email__address"
-              />
-            
-            <label htmlFor="Your_message"></label>
-              <textarea
-                onKeyUp={() => setHeight("textArea")}
-                onKeyDown={() => setHeight("textArea")}
-                id="Your_message"
-                name="message"
-                placeholder="enter your message here"
-                className="input__box email__body"
-              ></textarea>
-            
-            {/* submit button */}
-            <button type="submit" className="contact__btn">
-              Send email
-            </button>
-          </form>
-        </div>
+        <ContactForm />
         {/* social icons */}
         <div className="socials">
           <a href="https://github.com/lcim" target="_blank" rel="noreferrer">

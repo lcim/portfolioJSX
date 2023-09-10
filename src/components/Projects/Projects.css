@@ -8,7 +8,9 @@
   width: 100vw;
   height: 100%; 
   overflow: scroll;
-  color: #952323;
+  color: blueviolet;
+  /* color: #952323; */
+  color: #000;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,18 +20,18 @@
 
 .projectsCard__container{
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   margin-block-start: 3.0rem;
+  gap: 18px;
 }
 
 .projects__footer{
   font-family: Montserrat;
   font-weight: bold;
-  background-color: rgba(149, 35, 35, 0.1);
+  background-color: rgba(149, 35, 35, 0.2);
   border-radius: 12px;
 }
 

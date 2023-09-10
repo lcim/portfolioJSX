@@ -52,6 +52,10 @@ a:hover{
         padding: 3.2rem;
         font-size: 1.1rem;
     }
+}
 
- 
+@media screen and (min-height: 1080px) {
+    .component-wrapper{
+        height: 100%;
+    }
 }

@@ -7,7 +7,7 @@
   top: 0;
   /* left: 0; */
   width: 100vw;
-  /* height: 100vh; */
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,12 +30,13 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  width: 93%;
 }
 
 .input__box {
   font-family: Roboto;
   text-align: center;
-  width: 100%;
+  width: 93%;
   box-sizing: border-box;
   padding: 1.1rem 2rem;
   margin: 0.7rem 0;
@@ -48,15 +49,22 @@
   z-index: 9; 
 }
 
+
+
 .email__body {
   padding: 1.5rem 2rem;
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  width: 93%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
 }
 
 .contact__btn {
   border: none;
   border-radius: 1rem;
-  margin: 0.9rem 0;
+  margin: 2rem 0 4rem 0;
   color: #ec600f;
   font-weight: bold;
   font-family: Roboto;
@@ -98,7 +106,7 @@ contact-btn:hover {
   transition: all 0.3s;
 }
 
-.vector__frame {
+/* .vector__frame {
   position: fixed;
   z-index: -6;
   left: 0;
@@ -107,16 +115,12 @@ contact-btn:hover {
   z-index: 1;
   opacity: 0.5;
   visibility: hidden;
-}
+} */
 
-@media screen and (min-height: 800px) {
-  .contactpage__background {
-    height: 100%;
-  }
-}
+
 
 @media screen and (min-width: 400px) {
-  .form__container {
+  .contact__form {
     width: 80%;
   }
   .social-icon {
@@ -126,7 +130,19 @@ contact-btn:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .form__container {
-    width: 60%;
+  .contact__form {
+    max-width: 70%;
+  }
+  .contactpage__background{
+    height: auto;
+  }
+}
+
+@media screen and (min-height: 1080px) {
+  .contactpage__background {
+    height: 100%;
+  }
+  .contact__form {
+    width: 90%;
   }
 }

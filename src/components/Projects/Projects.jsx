@@ -7,7 +7,7 @@ import FooterLink from "../FooterLink/FooterLink";
 
 const Projects = () => {
   const projectCard = projectsData.map(
-    ({ projectName, projectDescription, imageUrl, projectUrl }, ind) => {
+    ({ projectName, projectDescription, imageUrl, projectUrl, visitProject }, ind) => {
       return (
         <ProjectCard
           key={ind}
@@ -15,6 +15,7 @@ const Projects = () => {
           projectDescription={projectDescription}
           imageUrl={imageUrl}
           projectUrl={projectUrl}
+          visitProject={visitProject}
         />
       );
     }
