@@ -1,6 +1,6 @@
 import Header from "../Header/Header";
 import "./About.css";
-import aboutVector from "./../../assets/about_vector.png";
+// import aboutVector from "./../../assets/about_vector.png";
 import aboutImage from "./../../assets/about_anime.gif";
 import FooterLink from "../FooterLink/FooterLink";
 // import React from "react";
@@ -80,13 +80,13 @@ const About = () => {
           linkAddress="/projects"
         />
           {/* Background vector image for about page */}
-          <div className="vector__frame">
+          {/* <div className="vector__frame">
             <img
               src={aboutVector}
               alt="background picture"
               className="about__vector"
             />
-          </div>
+          </div> */}
       </div>
     </div>
   );
