@@ -79,8 +79,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-  
 }
+
+::-webkit-input-placeholder { /* Edge */
+  overflow-wrap: break-word;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  overflow-wrap: break-word;
+}
+
+.input__box::placeholder {
+  color: #ec600f;
+  font-weight: 500;
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+}
+
 
 .socials {
   display: flex;
