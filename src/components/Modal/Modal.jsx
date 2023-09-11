@@ -26,7 +26,7 @@ const Modal = ({closeModal}) => {
             </a>
           </p>
 
-          <h3>My Companions:</h3>
+          <h3>Appreciation:</h3>
           <p className="appreciation">
             I was able to get this far with resources and I appreciate people
             like:
