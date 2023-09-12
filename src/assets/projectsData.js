@@ -44,8 +44,8 @@ export const projectsData = [
         projectDescription:
             'Distance is no longer a barrier! You can send your business card to anyone across the globe. You need digital business cards? Here is a sample of what you would get from me.',
         imageUrl: 'https://i.postimg.cc/YC7xvXHr/bizcard.png',
-        projectUrl: 'https://lcim.github.io/ScrimbaBizCard-Project/',
-        visitProject: "https://lcim.github.io/ScrimbaBizCard-Project/" ,
+        projectUrl: 'https://lcim.github.io/BusinessCard-tsx/',
+        visitProject: "https://lcim.github.io/BusinessCard-tsx/" ,
     },
 ];
 
