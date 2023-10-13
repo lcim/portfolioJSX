@@ -1,6 +1,6 @@
 import Header from "../Header/Header";
 import "./Projects.css";
-import { projectsData } from "../../assets/projectsData";
+import { projectsData } from "../../assets/Data/projectsData";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import FooterLink from "../FooterLink/FooterLink";
 // import React from 'react'

@@ -1,5 +1,5 @@
 import "./Skills.css";
-import { skillList } from "./../../assets/skillsSet";
+import { skillList } from "./../../assets/Data/skillsSet";
 import Header from "../Header/Header";
 import SkillsCard from "./SkillsCard";
 import FooterLink from "../FooterLink/FooterLink";

@@ -7,12 +7,12 @@
   min-height: 100%;
   padding: 100px 10px;
   box-sizing: border-box;
+  background-color: #8ef5c7;
+  background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
   background: url(./../../assets/bg2.jpg);
   background-size: contain;
   background-repeat: repeat;
   background-position: center center;
-  background-color: #8ef5c7;
-background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
 }
 
 .intro {
@@ -111,7 +111,7 @@ background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
     width: unset;
     max-width: 90%;
   }
-  .intro{
+  .intro {
     margin-top: unset;
   }
 }
@@ -122,14 +122,12 @@ background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
     max-width: 80%;
     margin-bottom: -80px;
   }
-  
 }
 
 @media screen and (max-height: 560px) {
-  .intro{
+  .intro {
     margin-top: 18rem;
   }
-  
 }
 
 /* @media screen and (min-height: 1080px) {
