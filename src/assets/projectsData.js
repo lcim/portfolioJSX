@@ -6,6 +6,14 @@ export const projectsData = [
         imageUrl: 'https://i.postimg.cc/5ySj7Hp9/Shopping-Cart.png',
         projectUrl: 'https://lcim.github.io/Shopping_cart-TS/',
         visitProject: "https://lcim.github.io/Shopping_cart-TS/",
+    },    
+    {
+        projectName: 'ToDo App',
+        projectDescription:
+            'As a manager/administrator, you should definitely have a way of having your schedule close to you. There are endless benefits. Because this is an app in your mobile device, it is accessible to you everywhere and even on multiple devices. You can easily amend them unlike when using stickers. Check out this app!',
+        imageUrl: 'https://i.postimg.cc/fL1cDCCh/todoapp.png',
+        projectUrl: 'https://lcim.github.io/todo-app/',
+        visitProject: "https://lcim.github.io/todo-app/" ,
     },
     {
         projectName: 'Name It!',
@@ -30,14 +38,6 @@ export const projectsData = [
         imageUrl: 'https://i.postimg.cc/5NL39hDK/pokedex.png',
         projectUrl: 'https://lcim.github.io/typed-pokemons/',
         visitProject: "https://lcim.github.io/typed-pokemons/" ,
-    },
-    {
-        projectName: 'ToDo App',
-        projectDescription:
-            'As a manager/administrator, you should definitely have a way of having your schedule close to you. There are endless benefits. Because this is an app in your mobile device, it is accessible to you everywhere and even on multiple devices. You can easily amend them unlike when using stickers. Check out this app!',
-        imageUrl: 'https://i.postimg.cc/fL1cDCCh/todoapp.png',
-        projectUrl: 'https://lcim.github.io/todo-app/',
-        visitProject: "https://lcim.github.io/todo-app/" ,
     },
     {
         projectName: 'Portfolio Website',
