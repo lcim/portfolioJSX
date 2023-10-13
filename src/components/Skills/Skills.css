@@ -47,7 +47,7 @@
 .skill > p {
   display: flex;
   flex-direction: column;
-  color: #212121;
+  color: #403030;
   font-weight: bold;
   max-width: 120px;
   line-height: 1.1rem;
