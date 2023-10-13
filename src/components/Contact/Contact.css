@@ -1,6 +1,8 @@
 .contactpage__background {
   background-image: url(./../../assets/bg3.jpg);
   background-repeat: repeat;
+  background-color: #202426;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -14,7 +16,7 @@
   justify-content: center;
   padding-block: 5.5rem 2.4rem;
   z-index: 9;
-  color: #FEFEFE;
+  color: #fefefe;
 }
 
 .form__container {
@@ -46,10 +48,8 @@
   font-size: 1.1rem;
   line-height: 1.2rem;
   position: relative;
-  z-index: 9; 
+  z-index: 9;
 }
-
-
 
 .email__body {
   padding: 1.5rem 2rem;
@@ -81,11 +81,13 @@
   cursor: pointer;
 }
 
-::-webkit-input-placeholder { /* Edge */
+::-webkit-input-placeholder {
+  /* Edge */
   overflow-wrap: break-word;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   overflow-wrap: break-word;
 }
 
@@ -95,7 +97,6 @@
   white-space: pre-wrap;
   font-size: 0.9rem;
 }
-
 
 .socials {
   display: flex;
@@ -132,8 +133,6 @@ contact-btn:hover {
   visibility: hidden;
 } */
 
-
-
 @media screen and (min-width: 400px) {
   .contact__form {
     width: 80%;
@@ -148,7 +147,7 @@ contact-btn:hover {
   .contact__form {
     max-width: 70%;
   }
-  .contactpage__background{
+  .contactpage__background {
     height: auto;
   }
 }
