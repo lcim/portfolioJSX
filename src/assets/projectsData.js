@@ -2,7 +2,7 @@ export const projectsData = [
     {
         projectName: 'Shopping Cart',
         projectDescription:
-            'Thinking of reaching out to customers online? Your're thinking in the right direction. Let's make them real. Whatever your need, we've got you covered - a simple shopping cart would do. ',
+            "Thinking of reaching out to customers online? Your're thinking in the right direction. Let's make them real. Whatever your need, we've got you covered - a simple shopping cart would do." ,
         imageUrl: 'https://i.postimg.cc/5ySj7Hp9/Shopping-Cart.png',
         projectUrl: 'https://lcim.github.io/Shopping_cart-TS/',
         visitProject: "https://lcim.github.io/Shopping_cart-TS/",
