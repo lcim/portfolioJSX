@@ -47,12 +47,13 @@
 .skill > p {
   display: flex;
   flex-direction: column;
-  color: #403030;
+  color: #4F3F3F;
   font-weight: bold;
   max-width: 120px;
   line-height: 1.1rem;
   margin-top: 0.3rem;
   font-family: Montserrat;
+  font-size: 1rem;
 }
 
 /* .vector__frame {
