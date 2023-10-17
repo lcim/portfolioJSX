@@ -1,11 +1,11 @@
 .aboutpage__background {
-  /* background-image: url(./../../assets/background-dark.jpg);
+  background-image: url(./../../assets/background-dark.jpg);
   background-repeat: repeat;
   background-position: center center;
-  background-size: cover; */
+  background-size: cover;
   position: absolute;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  /* background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%); */
   top: 0;
   width: 100vw;
   height: auto;
